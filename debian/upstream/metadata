@@ -1,0 +1,5 @@
+---
+Bug-Database: https://github.com/hashicorp/golang-lru/issues
+Bug-Submit: https://github.com/hashicorp/golang-lru/issues/new
+Repository: https://github.com/hashicorp/golang-lru.git
+Repository-Browse: https://github.com/hashicorp/golang-lru

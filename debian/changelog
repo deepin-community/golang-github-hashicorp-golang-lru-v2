@@ -1,5 +1,30 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-hashicorp-golang-lru-v2 (2.0.7-2) unstable; urgency=medium
 
-  * Initial release
+  * Disable flaky ExampleLRU test
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Shengjing Zhu <zhsj@debian.org>  Wed, 10 Apr 2024 16:13:52 +0800
+
+golang-github-hashicorp-golang-lru-v2 (2.0.7-1) unstable; urgency=medium
+
+  * New upstream version 2.0.7
+  * debian/copyright: Files: simplelru/list.go → internal/list.go
+
+ -- Anthony Fok <foka@debian.org>  Fri, 23 Feb 2024 17:43:55 -0700
+
+golang-github-hashicorp-golang-lru-v2 (2.0.1-2) unstable; urgency=medium
+
+  * Source-only upload for migration to testing
+
+ -- Anthony Fok <foka@debian.org>  Tue, 04 Jul 2023 19:03:58 -0600
+
+golang-github-hashicorp-golang-lru-v2 (2.0.1-1) unstable; urgency=medium
+
+  * Initial release for v2 which supports generics (Closes: #1032535).
+    Adapted from golang-github-hashicorp-golang-lru (0.5.4-2) and
+    updated to the latest packaging standards.
+  * Fix copyright information for simplelru/list.go
+    which was adapted for simplelru in v2.0.0 from src/container/list/list.go
+    Copyright (c) 2019 The Go Authors.  Thanks to Thorsten Alteholz for
+    catching my oversight and correcting the authorship for the file!
+
+ -- Anthony Fok <foka@debian.org>  Tue, 14 Mar 2023 15:35:14 -0600
